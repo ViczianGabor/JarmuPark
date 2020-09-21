@@ -31,10 +31,10 @@ namespace JarmuPark
             
             Lada.megy(ee);
             Trabant.megy(aa);
+            Console.WriteLine();
 
-
-
-            Lada.allapot();
+            Console.WriteLine($"{Lada.UZEMANYAG} L, {Lada.MEGTEHETO} km");
+            //Lada.allapot();
             Trabant.allapot();
 
 
